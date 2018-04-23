@@ -1,0 +1,71 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "fred meyer",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WhereIsItIntent",
+                    "slots": [
+                        {
+                            "name": "storeItems",
+                            "type": "storeItem"
+                        }
+                    ],
+                    "samples": [
+                        "what aisle is {storeItems} in",
+                        "where are {storeItems}",
+                        "where can i find the {storeItems}",
+                        "where can I find {storeItems}",
+                        "where is the {storeItems}",
+                        "what aisle is the {storeItems} in",
+                        "where are the {storeItems}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "storeItem",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "toilet paper"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "canned beans"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "velveeta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pickles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "peanut butter"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
