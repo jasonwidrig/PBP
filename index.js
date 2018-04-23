@@ -164,16 +164,10 @@ function testTheDBSTuff() {
     
     console.log("starting testing the db stuff");
     
-   // AWS.config = new AWS.Config();
-   // AWS.config.region = 'us-east-1';
-    //AWS.config.endpoint = 'dynamodb.us-east-1.amazonaws.com';
-    //AWS.config.accessKeyId = 'AKIAJ2BBKV6VYAYPGQKA';
-    //AWS.config.secretAccessKey = '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';
-    
+ 
     var dynamo = new DOC.DynamoDB();
-
-    
-    
+  
+ 
     //console.log("ddb = " + ddb);
     
     //console.log("params = " + params);
